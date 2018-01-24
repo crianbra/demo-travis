@@ -5,10 +5,9 @@ class Demo
     private $idDemo;
     private $nombre;
     
-     function __construct($idDemo, $nombre) {
-       $this->idDemo = $idDemo;
-       $this->nombre = $nombre;
+	function __construct() {
      }
+
     
      function setIdDemo($idDemo){
        $this->idDemo = $idDemo;
